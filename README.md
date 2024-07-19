@@ -1,20 +1,13 @@
---- Ivane Care ---
+--- Colegio san jose ---
 
-*La belleza no está en la cara, la belleza es una luz en el corazón*
-*Kahil Gibran*
+Colegio Salesiano San José de Santa Ana tiene más de cien años de educar a la juventud para formar Buenos Cristianos y Honrados Ciudadanos
 
-   Bienvenidos a todos a "IvaneCare" ,tu destino online para productos de belleza de alta calidad. Ofrecemos una amplia variedad de artículos que van desde maquillaje, cuidado de la piel,
-cuidado del cabello, hasta fragancias y accesorios de belleza. Nuestro catálogo incluye marcas reconocidas y productos naturales que se adaptan a todo tipo de piel y preferencias. 
+El Colegio San José es un centro educativo católico y salesiano localizado en la ciudad de Santa Ana, El Salvador; fundado en el año 1903. Por el hecho de ser una institución salesiana, los estudiantes son instruídos por medio del Sistema Preventivo de Don Bosco.
 
-  En nuestro sistema, ademas encontraras una amplia variadad de funcionalidades acordes a la marca, contamos con un estilo de imagen agradable al estilo de cada una de las mujeres,
-ademas contamos con dos versiones, escritorio y aplicacion movil, em ambas se realizarian las siguientes acciones:
-
-  - Creación de usuario
-  - Vista de catalogo de productos, divididos por (generales, marcas y categorias).
-  - Detalle y descripcion del producto a tu gusto.
-  - Realización del compra del producto.
-  - Vista de pedido realizado
-  - Modificación de perfil
+  - Informacion de ofertas academicas, servicios de estudio, informacion del colegio
+  - Admision de colegio segun nivel academico
+  - Detalle y descripcion de los niveles academicos
+  - Imagenes referentes de el colegio
 
 *Estandares de programación*
 
@@ -25,20 +18,10 @@ ademas contamos con dos versiones, escritorio y aplicacion movil, em ambas se re
 - Nombre de archivos: minusculas.
 - Comentarios: Se ha agregado comentarios acorde a las acciones que se estan realizando
 
-## General Sistema Androide
-
-- Espaciado: 4.
-- Nombre de carpetas (principales):minusculas
-- Nombre de carpetas (Secundarias):Inicia con mayusucla (PascalCase)
-- Nombre de archivos : PascaCase
-- Comentarios: se han agregado comentarios acorde a las acciones a realizar
-- Nombres de clases de estilo (Style): camelCase(containerBoton).
-- Nombre de constantes (const) : camelCase (handleLogOut).
-
   
 ## JavaScript
 
-- Constantes principales: Screaming Snake Case (PRODUCTOS_API)
+- Constantes principales: Screaming Snake Case (OFERTAS_API)
 - Variables: camelCase(correoCliente)
 
 ## PHP ( Hypertext Preprocessor)
@@ -73,8 +56,4 @@ ademas contamos con dos versiones, escritorio y aplicacion movil, em ambas se re
 json
 ```
 
-*Integrantes*
-
-- Jeremy Leandro Castro Moreno
 - Alisson Ivania Zepeda Cáceres
-- Ricardo Nicolas Melara Rauda 

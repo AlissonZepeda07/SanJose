@@ -617,15 +617,15 @@ select {
 .contenedorMayorRegistro {
     background-color: rgba(255, 255, 255, 0.87);
     border-radius: 26px;
-    border: 4px solid rgb(0, 0, 0);
+    border: 4px solid rgb(175, 170, 170);
 }
 
 .form-control {
-    border-color: rgb(73, 0, 141) !important;
+    border-color: rgb(0, 141, 40) !important;
 }
 
 .btnRegistrarse {
-    background-color: #1D1C6A;
+    background-color: #1c6a1d;
     color: white;
     cursor: pointer;
     border-radius: 20px;
@@ -633,7 +633,7 @@ select {
 }
 
 .btnRegistrarse:hover {
-    background-color: #1F1B47;
+    background-color: #1b4729;
     color: #f3fefe;
     box-shadow: 9px 14px 15px 2px #4a4a4ac0;
 }
@@ -654,7 +654,7 @@ button a {
 
 
 .TituPerfiClie {
-    color: #3D0059;
+    color: #005919;
 }
 
 /*-----------------------------------
@@ -776,7 +776,7 @@ button a {
 }
 
 .btnComi {
-    background-color: #1D1C6A;
+    background-color: #11a116;
 }
 
 .interes {
@@ -790,19 +790,19 @@ button a {
 
 div iframe {
     border-radius: 70px;
-    border: 10px solid #635bacbb;
+    border: 10px solid #11a116;
 }
 
 .decoCuadros {
-    background-color: #1D1C6A;
+    background-color: #11a116;
     color: aliceblue;
     border-radius: 40px;
     font-size: x-large;
 }
 
 .fonditoContactos {
-    background: rgb(131, 58, 180);
-    background: linear-gradient(236deg, rgba(131, 58, 180, 1) 21%, rgba(29, 94, 253, 1) 54%, rgba(244, 94, 240, 1) 86%);
+    background: rgb(12, 155, 39);
+    background: linear-gradient(236deg, rgb(9, 170, 65) 21%, rgb(29, 253, 70) 54%, rgb(7, 165, 36) 86%);
 }
 
 /*historia*/
@@ -840,7 +840,7 @@ div iframe {
 }
 
 .modal-header {
-    background-color: #594de0;
+    background-color: #11a116;
     color: white;
     border-bottom: none; /* Elimina el borde inferior del encabezado */
 }
@@ -869,4 +869,12 @@ div iframe {
 .buscador2{
     background-color: #109048;
     color: white;
+}
+
+.direccioncuadro
+{
+    background-color: #109048;
+    color: white;
+    border: 10px;
+    border-radius: 50px;
 }

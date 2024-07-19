@@ -25,7 +25,7 @@ main {
 
 /* Navbar */
 .navbar-expand-lg {
-    background-color: #1F1B47 !important;
+    background-color: #11a116 !important;
     color: #fefefe !important;
 }
 
@@ -50,7 +50,7 @@ main {
 }
 
 .dropdown-item:active{
-    background-color: rgb(125, 3, 173);
+    background-color: #11a116;
 }
 
 
@@ -80,7 +80,7 @@ span {
 
 /* Perfil */
 .TituPerfi {
-    color: #3D0059;
+    color: #11a116;
 }
 
 .imagPer {
@@ -89,11 +89,11 @@ span {
 
 .cuadroText {
     margin-left: 10px;
-    color: #352E77;
+    color: #11a116;
 }
 
 .letraPer {
-    color: #000055;
+    color: #11a116;
     margin-top: 20px;
     margin-left: 50px;
 }
@@ -104,7 +104,7 @@ span {
 }
 
 select {
-    border-color: blueviolet !important;
+    border-color: #11a116 !important;
 }
 
 .BotonActualizar{
@@ -127,7 +127,7 @@ select {
 }
 
 input {
-    border-color: blueviolet !important;
+    border-color: rgb(43, 226, 110) !important;
 }
 
 .test {
@@ -135,11 +135,11 @@ input {
 }
 
 .oscuro {
-    background-color: #1F1B47 !important;
+    background-color: #11a116 !important;
 }
 
 section button {
-    background-color: #1D1C6A !important;
+    background-color: #11a116 !important;
     color: #fefefe !important;
 }
 
@@ -153,7 +153,7 @@ section button {
 .btnUsuAgregar {
     position: absolute;
     right: 20px;
-    background-color: #1D1C6A;
+    background-color: #11a116;
     color: white;
     padding: 20px 20px;
     border: none;
@@ -165,7 +165,7 @@ section button {
     margin: 4px 35px;
 }
 .btnReportes{
-    background-color: #1D1C6A;
+    background-color: #11a116;
     border: none;
     cursor: pointer;
     border-radius: 20px;
@@ -174,7 +174,7 @@ section button {
 
 
 .log{
-    background-color: #1D1C6A;
+    background-color: #11a116;
     border-radius: 800rem;
     color: #f3fefe;
     cursor: pointer;
@@ -186,7 +186,7 @@ section button {
 
 .container-usuarios button {
     border-radius: 20px;
-    background-color: #1D1C6A;
+    background-color: #11a116;
     color: white;
     padding: 15px 15px;
     margin: 7px;
@@ -197,7 +197,7 @@ section button {
 .usuusu {
     text-align: left;
     padding: 1rem 3%;
-    color: #610e88;
+    color: #19ab34;
 }
 
 .text_menu {
@@ -215,7 +215,7 @@ footer {
     bottom: 0;
     left: 0;
     padding: 1px;
-    background-color: #1F1B47 !important;
+    background-color: #11a116 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,7 +277,7 @@ footer {
 .btn_producto_agregar {
     position: absolute;
     right: 20px;
-    background-color: #1D1C6A;
+    background-color: #11a116;
     color: white;
     padding: 20px 20px;
     border: none;
@@ -354,7 +354,7 @@ footer {
 }
 
 .modal-header {
-    background-color: #1F1B47;
+    background-color: #11a116;
     color: white;
     border-bottom: none; /* Elimina el borde inferior del encabezado */
 }

@@ -14,7 +14,7 @@
 
 </head>
 
-<body class="Fondo">
+<body class="">
 
     <!--navbar-->
     <header>
@@ -27,83 +27,54 @@
                 <div class="row">
                     <!--Imagen de perfil-->
                     <div class=" col-lg-12 text-center">
-                        <img id="imagenR"
-                            class="rounded  mx-auto d-block img-fluid mt-3 border border-3 border-secondary-subtle rounded-circle imagen_R"
-                            src="../../resources/img/iconoPerfil.jpg" alt="..." width="300px">
-                        <input type="file" id="imagenCliente" name="imagenCliente" hidden>
-                        <label for="imagenCliente" class="buttonR btn-sm mb-4 p-2 mt-3">
-                            Inserte una imagen
-                        </label>
-                        
                     </div>
                     <!--Apartado de todos los inputs-->
                     <div class="col-lg-6">
+                        <h3>Aspirante</h3>
                         <!-- Campo oculto para asignar el token del reCAPTCHA -->
                         <input type="text" class="d-none" id="gRecaptchaResponse" name="gRecaptchaResponse">
                         <!--Input de nombre-->
                         <div class="form-group">
-                            <label for="nombreCliente" class="letraPer mt-3 fs-3 form-label">Nombre</label>
                             <input type="text" class="form-control cuadroText col-md-3 fs-3 " name="nombreCliente"
-                                id="nombreCliente" placeholder="Escriba su nombre" required>
+                                id="nombreCliente" placeholder="Nombre aspirante..." required>
                         </div>
-                        <!--Input de Apellido-->
-                        <div class="form-group">
-                            <label for="apellidoCliente" class="letraPer mt-3 fs-3">Apellido</label>
-                            <input type="text" class="form-control cuadroText col-md-3 fs-3 " name="apellidoCliente"
-                                id="apellidoCliente" placeholder="Escriba su apellido" required>
-                        </div>
+                        <br>
                         <!--Input de Correo-->
                         <div class="form-group">
-                            <label for="correoCliente" class="letraPer mt-3 fs-3">Correo electronico</label>
                             <input type="email" class="form-control cuadroText col-md-3 fs-3 " name="correoCliente"
-                                id="correoCliente" placeholder="Escriba su correo" required>
+                                id="correoCliente" placeholder="Escriba su correo..." required>
+                        </div>
+                        <br>
+                        <!--Input de nombre-->
+                        <div class="form-group">
+                            <input type="text" class="form-control cuadroText col-md-3 fs-3 " name="nombreCliente"
+                                id="nombreCliente" placeholder="Edad" required>
                         </div>
                         <!--Input de Telefono-->
                         <div class="form-group">
                             <label for="telefonoCliente" class="letraPer mt-3 fs-3">Número de telefono</label>
                             <input type="text" class="form-control cuadroText col-md-3 fs-3 " name="telefonoCliente"
                                 id="telefonoCliente" placeholder="0000-0000" required>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <!--Input de nombre de usuario-->
-                        <div class="form-group">
-                            <label for="aliasCliente" class="letraPer mt-3 fs-3">Nombre de usuario</label>
-                            <input type="text" class="form-control cuadroText col-md-3 fs-3 " name="aliasCliente"
-                                id="aliasCliente" placeholder="Escriba su usuario" required>
-                        </div>
-                        <!--Input de contrasenia-->
-                        <div class="form-group">
-                            <label for="claveCliente" class="letraPer mt-3 fs-3">Contraseña</label>
-                            <input type="password" class="form-control cuadroText col-md-3 fs-3 " name="claveCliente"
-                                id="claveCliente" placeholder="Escriba su contraseña" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="confirmarClave" class="letraPer mt-3 fs-3">Confirmar contraseña</label>
-                            <input type="password" class="form-control cuadroText col-md-3 fs-3 " name="confirmarClave"
-                                id="confirmarClave" placeholder="Escriba su contraseña" required>
-                        </div>
-                        <!--Input de residencia-->
+                        <!--Input de direccion-->
                         <div class="form-group">
                             <label for="direccionCliente" class="letraPer mt-3 fs-3">Residencia/Dirección</label>
                             <textarea class="form-control cuadroText col-md-3 fs-3  mb-4" name="direccionCliente"
                                 maxlength="250" id="direccionCliente" rows="3" placeholder="Escriba su dirección aca"
                                 required></textarea>
                         </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!--Input de Correo-->
+                        <h3>Datos de encargado</h3>
+                        <div class="form-group">
+                            <input type="email" class="form-control cuadroText col-md-3 fs-3 " name="correoCliente"
+                                id="correoCliente" placeholder="Escriba su correo" required>
+                        </div>
                     </div>
                     <div class="form-check d-flex justify-content-center">
                         <input type="checkbox" class="form-check-input" id="condicion" name="condicion" required>
                         <label class="form-check-label mb-4" for="condicion" required>Acepto términos y condiciones</label>
-                    </div>
-                    <div class="col text-center">
-                        <button type="submit" class="buttonR col-lg-3 btn-lg mb-4 col-sm-12">
-                            <i class="bi bi-send-fill icon"></i>
-                            Registrar
-                        </button>
-                        <button type="reset" class="buttonR col-lg-3 btn-lg mb-4 col-sm-12">
-                            <i class="bi bi-x-circle-fill"></i>
-                            Cancelar</button>
-
                     </div>
                 </div>
             </form>
