@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Se comprueba si existe una sesión, de lo contrario se sigue con el flujo normal.
     if (DATA.session) {
         // Se direcciona a la página web de bienvenida.
-        location.href = 'productos.html';
+        location.href = 'admision.html';
     } else if (DATA.status) {
         // Se establece el título del contenido principal.
         MAIN_TITLE.textContent = 'Iniciar sesión';
@@ -79,7 +79,7 @@ LOGIN_FORM.addEventListener('submit', async (event) => {
     const DATA = await fetchData(USER_API, 'logIn', FORM);
     // Se comprueba si la respuesta es satisfactoria, de lo contrario se muestra un mensaje con la excepción.
     if (DATA.status) {
-        sweetAlert(1, DATA.message, true, 'productos.html');
+        sweetAlert(1, DATA.message, true, 'admision.html');
     } else {
         sweetAlert(2, DATA.error, false);
     }

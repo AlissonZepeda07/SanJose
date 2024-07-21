@@ -21,7 +21,7 @@ const navbar = `
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../views/admin/productos.html">Productos</a></li>
+                        <li><a class="dropdown-item" href="../../views/admin/admision.html">Productos</a></li>
                         <li><a class="dropdown-item" href="../../views/admin/categoria.html">Categorias</a></li>
                         <li><a class="dropdown-item" href="../../views/admin/marca.html">Marcas</a></li>
                     </ul>

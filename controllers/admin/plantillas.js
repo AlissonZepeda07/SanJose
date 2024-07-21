@@ -30,15 +30,15 @@ header.innerHTML = `<nav class="navbar navbar-expand-lg bg-body-tertiary">
                                 width="60px"></a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" aria-current="page"
-                                href="../../views/admin/productos.html" role="button" data-bs-toggle="dropdown"
+                                href="../../views/admin/Admsion.html" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Productos
+                                Admision 2025
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" aria-current="page"
-                                        href="../../views/admin/productos.html">Productos</a></li>
+                                        href="../../views/admin/admision.html">Productos</a></li>
                                 <li><a class="dropdown-item" aria-current="page"
-                                        href="../../views/admin/categoria.html">Categorias</a></li>
+                                        href="../../views/admin/Pilet.html">Pilet</a></li>
                                 <li><a class="dropdown-item" aria-current="page"
                                         href="../../views/admin/marca.html">Marcas</a></li>
                             </ul>

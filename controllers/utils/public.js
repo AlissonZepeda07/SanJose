@@ -11,7 +11,7 @@ MAIN.style.paddingTop = '75px';
 MAIN.style.paddingBottom = '100px';
 MAIN.classList.add('container');
 // Se establece el título de la página web.
-document.querySelector('title').textContent = 'IvaneCare - Store';
+document.querySelector('title').textContent = 'Colegio San Jose - Store';
 // Constante para establecer el elemento del título principal.
 const MAIN_TITLE = document.getElementById('mainTitle');
 
@@ -55,15 +55,15 @@ MAIN.insertAdjacentHTML('beforebegin', `
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" aria-current="page" href="" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        Productos
+                        Admision 2025
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" aria-current="page"
-                                href="../../views/public/index.html">Productos</a></li>
-                        <li><a class="dropdown-item" aria-current="page" href="../../views/public/marca.html">Marcas</a>
+                                href="../../views/public/index.html">Admision 2025</a></li>
+                        <li><a class="dropdown-item" aria-current="page" href="../../views/public/Pilet.html">Pilet</a>
                         </li>
                         <li><a class="dropdown-item" aria-current="page"
-                                href="../../views/public/categoria.html">Categorías</a></li>
+                                href="../../views/public/Extracurriculares.html">Extracurriculares</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -71,8 +71,7 @@ MAIN.insertAdjacentHTML('beforebegin', `
                         href="../../views/public/contactos.html">Contactos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../../views/public/historia.html">Sobre
-                        nosotros</a>
+                    <a class="nav-link active" aria-current="page" href="../../views/public/historia.html">Contactos</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto align-items-right flex-row">
@@ -150,24 +149,23 @@ MAIN.insertAdjacentHTML('beforebegin', `
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" aria-current="page" href="" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        Productos
+                        Admision 2025
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" aria-current="page"
-                                href="../../views/public/index.html">Productos</a></li>
-                        <li><a class="dropdown-item" aria-current="page" href="../../views/public/marca.html">Marcas</a>
+                                href="../../views/public/index.html">Admision 2025</a></li>
+                        <li><a class="dropdown-item" aria-current="page" href="../../views/public/Pilet.html">Pilet</a>
                         </li>
                         <li><a class="dropdown-item" aria-current="page"
-                                href="../../views/public/categoria.html">Categorías</a></li>
+                                href="../../views/public/Extracurriculares.html">Extracurriculares</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page"
-                        href="../../views/public/contactos.html">Contactos</a>
+                        href="../../views/public/contactos.html">Ofertas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../../views/public/historia.html">Sobre
-                        nosotros</a>
+                    <a class="nav-link active" aria-current="page" href="../../views/public/historia.html">Contactos</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto align-items-right flex-row">
@@ -182,7 +180,7 @@ MAIN.insertAdjacentHTML('beforebegin', `
                         <img class="rounded-circle profile-icon" src="../../resources/img/iconoPerfil.jpg" alt="Perfil">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item" href="registro_cliente.html">Crear cuenta</a></li>
+                        <li><a class="dropdown-item" href="admision.html">Crear cuenta</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -201,7 +199,6 @@ MAIN.insertAdjacentHTML('afterend', `
     <div class="social-icons-container ">
         <a href="https://www.instagram.com/ivanecare?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank" class="social-icons"></a>
-        <a href="https://www.threads.net/@ivanecare" target="_blank" class="social-icons"></a>
         <a href="https://www.facebook.com/profile.php?id=61556911452120" target="_blank" class="social-icons"></a>
     </div>
     <ul class="footer-menu-conteiner">
